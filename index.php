@@ -334,7 +334,7 @@ if(isset($_POST['login_page'] ))  {
                                 <h4>Banking System</h4>
                                 <h1>Get your load with maximum <span>7.5% rate</span></h1>
                                 <p>Nunc enim neque, tincidunt non viverra ac, consectetur in erat. Quisque egestas pharetra dictum. Etiam sodales lacinia diam, nec iaculis neque pretium ac. Duis auctor ac</p>
-                                <a href="apply-online.html" class="bttn-mid btn-fill">Apply now</a>
+                                <a href="apply-online.php" class="bttn-mid btn-fill">Apply now</a>
                             </div>
                         </div>
                     </div>
@@ -350,7 +350,7 @@ if(isset($_POST['login_page'] ))  {
                                 <h4>Finance Loan</h4>
                                 <h1>Our personal loan is a <span>robast</span> to get</h1>
                                 <p>Nunc enim neque, tincidunt non viverra ac, consectetur in erat. Quisque egestas pharetra dictum. Etiam sodales lacinia diam, nec iaculis neque pretium ac. Duis auctor ac</p>
-                                <a href="apply-online.html" class="bttn-mid btn-fill">Apply now</a>
+                                <a href="apply-online.php" class="bttn-mid btn-fill">Apply now</a>
                             </div>
                         </div>
                     </div>
@@ -366,7 +366,7 @@ if(isset($_POST['login_page'] ))  {
                                 <h4>Finance Loan</h4>
                                 <h1>Our personal loan is a <span>robast</span> to get</h1>
                                 <p>Nunc enim neque, tincidunt non viverra ac, consectetur in erat. Quisque egestas pharetra dictum. Etiam sodales lacinia diam, nec iaculis neque pretium ac. Duis auctor ac</p>
-                                <a href="apply-online.html" class="bttn-mid btn-fill">Apply now</a>
+                                <a href="apply-online.php" class="bttn-mid btn-fill">Apply now</a>
                             </div>
                         </div>
                     </div>
@@ -482,7 +482,7 @@ if(isset($_POST['login_page'] ))  {
                         <div class="thirty">
                             <div class="results clearfix"></div>
                         </div>
-                        <a href="apply-online.html" class="bttn-mid btn-fill">Apply for loans</a>
+                        <a href="apply-online.php" class="bttn-mid btn-fill">Apply for loans</a>
                     </div>
                 </div>
             </div>
@@ -537,8 +537,8 @@ if(isset($_POST['login_page'] ))  {
             <div class="section-title mb-10">
                 <h2>Who we are</h2>
             </div>
-            <p>Lose away off why half led have near bed. At engage simple father of period others except.</p>
-            <p>Jennings appetite disposed me an at subjects an. To no indulgence  diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. Almost do am or limits hearts. Resolve parties but why she shewing Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing</p>
+            <p>Banking in its modern sense evolved in the fourteenth century in the prosperous cities of Renaissance ..</p>
+            <p>A bank is a financial institution that accepts deposits from the public and creates credit.[1] Lending activities can be performed either directly or indirectly through capital markets. Due to their importance in the financial stability of a country, banks are highly regulated in most countries. Most nations have institutionalized a system known as fractional reserve banking under which banks hold liquid assets equal to only a portion of their current liabilities. In addition to other regulations intended to ensure liquidity, banks are generally subject to minimum capital requirements based on an international set of capital standards, known as the Basel Accords</p>
             <a href="about.php" class="bttn-mid btn-fill">Read More</a>
         </div>
     </div>
@@ -656,8 +656,8 @@ if(isset($_POST['login_page'] ))  {
                 <div class="single-feature">
                     <img src="assets/images/icons/1.png" alt="">
                     <h4>Easy to apply</h4>
-                    <p>Lose away off why half led have near bed. At engage simple father of period others except giving do summer</p>
-                    <a href="apply-online.html">Apply now</a>
+                    <p>For easy loans up to $35000, choose MoneyMe. Easy Online Application. No early payout fees. Competitive Fixed Interest Rates. We Can Help - Apply now</p>
+                    <a href="apply-online.php">Apply now</a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
@@ -665,15 +665,15 @@ if(isset($_POST['login_page'] ))  {
                     <img src="assets/images/icons/2.png" alt="">
                     <h4>Fast processing</h4>
                     <p>Lose away off why half led have near bed. At engage simple father of period others except giving do summer</p>
-                    <a href="apply-online.html">Apply now</a>
+                    <a href="apply-online.php">Apply now</a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="single-feature">
                     <img src="assets/images/icons/3.png" alt="">
                     <h4>Low rates</h4>
-                    <p>Lose away off why half led have near bed. At engage simple father of period others except giving do summer</p>
-                    <a href="apply-online.html">Apply now</a>
+                    <p>Higher the loan amount, lower will be the rate of interest. HDFC Bank, Tata Capital, RBL Bank, Citibank, ICICI Bank are the best banks for personal loa</p>
+                    <a href="apply-online.php">Apply now</a>
                 </div>
             </div>
         </div>
@@ -687,7 +687,7 @@ if(isset($_POST['login_page'] ))  {
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="section-title cl-white">
                     <h2>testimonials</h2>
-                    <p>Lose away off why half led have near bed. At engage simple father of period others except</p>
+                    <p>"Banking at its best is local and personal. With Santa Cruz County Bank we have both"</p>
                 </div>
                 <div class="testimonials owl-carousel">
                     <div class="single-review">
@@ -718,7 +718,7 @@ if(isset($_POST['login_page'] ))  {
             <div class="col-xl-6 centered">
                 <div class="section-title">
                     <h2>Our Partners</h2>
-                    <p>Lose away off why half led have near bed. At engage simple <br> father of period others except</p>
+                    <p>Our partners are <br> father of period others except</p>
                 </div>
             </div>
         </div>
@@ -753,7 +753,7 @@ if(isset($_POST['login_page'] ))  {
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div class="footer-widget">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dicta dignissimos enim reprehenderit minima repudiandae animi inventore expedita fugit. Nam natus tempore incidunt, ipsum minus esse et excepturi iusto ipsam!</p>
+                    <p>A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes!</p>
                     <div class="social">
                         <a href="#" class="cl-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="cl-twitter"><i class="fa fa-twitter"></i></a>

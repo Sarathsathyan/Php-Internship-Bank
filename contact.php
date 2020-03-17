@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:44 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:44 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,41 +62,6 @@
     </div>
 </div><!-- /Right Sticky Wapper -->
 
-
-<!--Header Top-->
-<div class="header-top white-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                <div class="single-header-top">
-                    <p>
-                        <?php  if(isset($_SESSION['email'])) {
-                            echo "Welcome: <span><a href=\"mailto:\"><i class=\"fa fa-envelope\"></i>".$_SESSION['email']."</a></span>";
-                        }
-                        else{
-                            echo"Login to get more informations";
-                        }
-
-                        ?>
-                        <span><a href="tel:"><i class="fa fa-phone"></i>+000-123-789</a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="single-header-top last">
-                    <div class="account-menu">
-                        <ul>
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--/Header Top-->
 
 <!-- Account Modal -->
 <div class="modal fade" id="account" tabindex="-1" role="dialog" aria-hidden="true">
@@ -167,8 +132,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index-2.html">Home one</a></li>
-                            <li><a class="dropdown-item" href="index-3.html">Home two</a></li>
+                            <li><a class="dropdown-item" href="index.php">Home</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
@@ -184,31 +148,23 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Studies</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="case-studies.html">Case Studies 1</a></li>
-                            <li><a class="dropdown-item" href="case-studies-2.html">Case Studies 2</a></li>
-                            <li><a class="dropdown-item" href="case-studies-details.html">Case Studies Details</a></li>
+                            <li><a class="dropdown-item" href="case-studies-2.php">Case Studies</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="career.html">Career</a></li>
-                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                            <li><a class="dropdown-item" href="faq.html">FAQ page</a></li>
-                            <li><a class="dropdown-item" href="team.html">Team</a></li>
-                            <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="404.html">Error page</a></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                            <li><a class="dropdown-item" href="career.php">Career</a></li>
+                            <li><a class="dropdown-item" href="team.php">Team</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <a class="nav-link dropdown-toggle" href="blog.php" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog.html">All Blog</a></li>
-                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="blog.php">All Blog</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="header-btn justify-content-end">
                     <button type="button" class="search-btn"><i class="fa fa-search"></i></button>
@@ -258,7 +214,7 @@
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                 <div class="section-title centered">
                     <h2>Any asking to the officers?</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
+                    <p>If you have any doubts , you can send message to the admin, Admin will contact you as soon as possible</p>
                 </div>
             </div>
         </div>
@@ -307,7 +263,9 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div class="footer-widget">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dicta dignissimos enim reprehenderit minima repudiandae animi inventore expedita fugit. Nam natus tempore incidunt, ipsum minus esse et excepturi iusto ipsam!</p>
+
+                    <p>A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes!</p>
+
                     <div class="social">
                         <a href="#" class="cl-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="cl-twitter"><i class="fa fa-twitter"></i></a>
@@ -322,11 +280,11 @@
                         <div class="footer-widget footer-nav">
                             <h3>Regular links</h3>
                             <ul>
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">Loans</a></li>
-                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="index.php">home</a></li>
+                                <li><a href="loans.php">Loans</a></li>
+                                <li><a href="case-studies-2.php">Case Studies</a></li>
                                 <li><a href="#">Privacy</a></li>
-                                <li><a href="#">contact</a></li>
+                                <li><a href="contact.php">contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -410,5 +368,5 @@
 <script src="assets/js/script.js"></script>
 </body>
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
 </html>

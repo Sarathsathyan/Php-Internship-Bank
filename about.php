@@ -338,7 +338,9 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div class="footer-widget">
                     <h3>About Us</h3>
-                    <p>A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. ... In most countries, banks are regulated by the national government or central bank</p>
+
+                    <p>A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes!</p>
+
                     <div class="social">
                         <a href="#" class="cl-facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="cl-twitter"><i class="fa fa-twitter"></i></a>

@@ -83,9 +83,9 @@
                 <div class="single-header-top last">
                     <div class="account-menu">
                         <ul>
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.php">Support</a></li>
+                            <li><a href="career.php">Career</a></li>
+                            <li><a href="blog.php">Blog</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
                         </ul>
                     </div>
@@ -164,7 +164,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.phpl">Home</a></li>
+                            <li><a class="dropdown-item" href="index.php">Home</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About us</a></li>
@@ -173,7 +173,6 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="loans.php">General Loans</a></li>
                             <li><a class="dropdown-item" href="apply-online.php">Online Apply</a></li>
-                            <li><a class="dropdown-item" href="how-it-works.php">How It Work</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

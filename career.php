@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/career.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/career.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,9 +83,9 @@
                 <div class="single-header-top last">
                     <div class="account-menu">
                         <ul>
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.php">Support</a></li>
+                            <li><a href="career.php">Career</a></li>
+                            <li><a href="blog.php">Blog</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
                         </ul>
                     </div>
@@ -181,31 +181,25 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Studies</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="case-studies.html">Case Studies 1</a></li>
-                            <li><a class="dropdown-item" href="case-studies-2.html">Case Studies 2</a></li>
-                            <li><a class="dropdown-item" href="case-studies-details.html">Case Studies Details</a></li>
+                            <li><a class="dropdown-item" href="case-studies-2.php">Case Studies</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="career.html">Career</a></li>
-                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="career.php">Career</a></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
                             <li><a class="dropdown-item" href="faq.html">FAQ page</a></li>
-                            <li><a class="dropdown-item" href="team.html">Team</a></li>
-                            <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="404.html">Error page</a></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                            <li><a class="dropdown-item" href="team.html">Team</a></li>\
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <a class="nav-link dropdown-toggle" href="blog.php" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog.html">All Blog</a></li>
-                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="blog.php">All Blog</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="header-btn justify-content-end">
                     <button type="button" class="search-btn"><i class="fa fa-search"></i></button>
@@ -240,7 +234,7 @@
                     <h2>Career</h2>
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Career</li>
                 </ul>
             </div>
@@ -369,11 +363,11 @@
                         <div class="footer-widget footer-nav">
                             <h3>Regular links</h3>
                             <ul>
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">Loans</a></li>
-                                <li><a href="#">Case Studies</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">contact</a></li>
+                                <li><a href="index.php">home</a></li>
+                                <li><a href="loans.php">Loans</a></li>
+                                <li><a href="case-studies-2.php">Case Studies</a></li>
+
+                                <li><a href="contact.php">contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -457,5 +451,5 @@
 <script src="assets/js/script.js"></script>
 </body>
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/career.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/career.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:13:48 GMT -->
 </html>

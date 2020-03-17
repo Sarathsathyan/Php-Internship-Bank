@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/loans.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:18 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/loans.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:18 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,40 +60,7 @@
 </div><!-- /Right Sticky Wapper -->
 
 
-<!--Header Top-->
-<div class="header-top white-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                <div class="single-header-top">
-                    <p>
-                        <?php  if(isset($_SESSION['email'])) {
-                            echo "Welcome: <span><a href=\"mailto:\"><i class=\"fa fa-envelope\"></i>".$_SESSION['email']."</a></span>";
-                        }
-                        else{
-                            echo"Login to get more informations";
-                        }
 
-                        ?>
-                        <span><a href="tel:"><i class="fa fa-phone"></i>+000-123-789</a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="single-header-top last">
-                    <div class="account-menu">
-                        <ul>
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--/Header Top-->
 
 <!-- Account Modal -->
 <div class="modal fade" id="account" tabindex="-1" role="dialog" aria-hidden="true">
@@ -153,7 +120,7 @@
     <nav class="navbar navbar-expand-lg main-menu">
         <div class="container">
 
-            <a class="navbar-brand" href="index-2.html"><img src="assets/images/logo.png" class="d-inline-block align-top" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" class="d-inline-block align-top" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="menu-toggle"></span>
@@ -164,48 +131,38 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index-2.html">Home one</a></li>
-                            <li><a class="dropdown-item" href="index-3.html">Home two</a></li>
+                            <li><a class="dropdown-item" href="index.php">Home </a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loans</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="loans.html">General Loans</a></li>
-                            <li><a class="dropdown-item" href="loan-details.html">Loan Details</a></li>
-                            <li><a class="dropdown-item" href="apply-online.html">Online Apply</a></li>
-                            <li><a class="dropdown-item" href="how-it-works.html">How It Work</a></li>
+                            <li><a class="dropdown-item" href="loans.php">General Loans</a></li>
+                            <li><a class="dropdown-item" href="apply-online.php">Online Apply</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Studies</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="case-studies.html">Case Studies 1</a></li>
-                            <li><a class="dropdown-item" href="case-studies-2.html">Case Studies 2</a></li>
-                            <li><a class="dropdown-item" href="case-studies-details.html">Case Studies Details</a></li>
+                            <li><a class="dropdown-item" href="case-studies-2.php">Case Studies</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="career.html">Career</a></li>
-                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                            <li><a class="dropdown-item" href="faq.html">FAQ page</a></li>
-                            <li><a class="dropdown-item" href="team.html">Team</a></li>
-                            <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="404.html">Error page</a></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                            <li><a class="dropdown-item" href="career.php">Career</a></li>
+                            <li><a class="dropdown-item" href="team.php">Team</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <a class="nav-link dropdown-toggle" href="blog.php" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog.html">All Blog</a></li>
-                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="blog.php">All Blog</a></li>
+                            <li><a class="dropdown-item" href="blog.php">Blog Details</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="header-btn justify-content-end">
                     <button type="button" class="search-btn"><i class="fa fa-search"></i></button>
@@ -268,7 +225,7 @@
                 <div class="growth-content">
                     <h3>Personal Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -277,7 +234,7 @@
                 <div class="growth-content">
                     <h3>Home Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-3 order-xl-4 order-lg-4 order-md-4 order-sm-3 wow fadeInUp" data-wow-delay="0.5s">
@@ -292,7 +249,7 @@
                 <div class="growth-content">
                     <h3>Property Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
         </div>
@@ -301,7 +258,7 @@
                 <div class="growth-content">
                     <h3>Personal Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-7 order-xl-8 order-lg-8 order-md-8 order-sm-7 wow fadeInUp" data-wow-delay="0.7s">
@@ -313,7 +270,7 @@
                 <div class="growth-content">
                     <h3>Home Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-9 order-xl-9 order-lg-9 order-md-9 order-sm-9 wow fadeInUp" data-wow-delay="0.8s">
@@ -325,7 +282,7 @@
                 <div class="growth-content">
                     <h3>Property Loan</h3>
                     <p>At by asked being court hopes. Farther so friends Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract. Forbade concern do private be. Offending residence but men engrossed shy. Pretend am earnest offered Offending residence but men engrossed. Pretend am earnest offered arrived company so on. Pretend am earnest offered arrived company so on</p>
-                    <a href="loan-details.html" class="bttn-small btn-fill">Apply Now</a>
+                    <a href="loan-details.php" class="bttn-small btn-fill">Apply Now</a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-11 order-xl-12 order-lg-12 order-md-12 order-sm-11 wow fadeInUp" data-wow-delay="0.9s">
@@ -466,5 +423,5 @@
 <script src="assets/js/script.js"></script>
 </body>
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/loans.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:34 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/loans.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:34 GMT -->
 </html>

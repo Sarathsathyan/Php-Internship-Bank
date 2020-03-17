@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/how-it-works.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:36 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/how-it-works.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:36 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,9 +84,9 @@
                 <div class="single-header-top last">
                     <div class="account-menu">
                         <ul>
-                            <li><a href="contact.html">Support</a></li>
+                            <li><a href="contact.php">Support</a></li>
                             <li><a href="career.html">Career</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog.php">Blog</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
                         </ul>
                     </div>
@@ -154,7 +154,7 @@
     <nav class="navbar navbar-expand-lg main-menu">
         <div class="container">
 
-            <a class="navbar-brand" href="index-2.html"><img src="assets/images/logo.png" class="d-inline-block align-top" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" class="d-inline-block align-top" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="menu-toggle"></span>
@@ -165,7 +165,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index-2.html">Home one</a></li>
+                            <li><a class="dropdown-item" href="index.php">Home one</a></li>
                             <li><a class="dropdown-item" href="index-3.html">Home two</a></li>
                         </ul>
                     </li>
@@ -173,18 +173,15 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loans</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="loans.html">General Loans</a></li>
-                            <li><a class="dropdown-item" href="loan-details.html">Loan Details</a></li>
+                            <li><a class="dropdown-item" href="loans.php">General Loans</a></li>
                             <li><a class="dropdown-item" href="apply-online.html">Online Apply</a></li>
-                            <li><a class="dropdown-item" href="how-it-works.html">How It Work</a></li>
+                            <li><a class="dropdown-item" href="how-it-works.php">How It Work</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Studies</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="case-studies.html">Case Studies 1</a></li>
-                            <li><a class="dropdown-item" href="case-studies-2.html">Case Studies 2</a></li>
-                            <li><a class="dropdown-item" href="case-studies-details.html">Case Studies Details</a></li>
+                        <ul class="dropdown-menu">i>
+                            <li><a class="dropdown-item" href="case-studies-2.php">Case Studies</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -194,13 +191,12 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <a class="nav-link dropdown-toggle" href="blog.php" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="blog.html">All Blog</a></li>
-                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="blog.php">All Blog</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="header-btn justify-content-end">
                     <button type="button" class="search-btn"><i class="fa fa-search"></i></button>
@@ -442,7 +438,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 centered">
-                        <a href="contact.html" class="bttn-mid btn-fill">Still no luck?</a>
+                        <a href="contact.php" class="bttn-mid btn-fill">Still no luck?</a>
                     </div>
                 </div>
             </div>
@@ -574,5 +570,5 @@
 <script src="assets/js/script.js"></script>
 </body>
 
-<!-- Mirrored from rexbd.net/html/bankus/demo/how-it-works.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:36 GMT -->
+<!-- Mirrored from rexbd.net/html/bankus/demo/how-it-works.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Mar 2020 09:15:36 GMT -->
 </html>
