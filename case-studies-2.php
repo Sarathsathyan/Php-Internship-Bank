@@ -60,40 +60,6 @@
 </div><!-- /Right Sticky Wapper -->
 
 
-<!--Header Top-->
-<div class="header-top white-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                <div class="single-header-top">
-                    <p>
-                        <?php  if(isset($_SESSION['email'])) {
-                            echo "Welcome: <span><a href=\"mailto:\"><i class=\"fa fa-envelope\"></i>".$_SESSION['email']."</a></span>";
-                        }
-                        else{
-                            echo"Login to get more informations";
-                        }
-
-                        ?>
-                        <span><a href="tel:"><i class="fa fa-phone"></i>+000-123-789</a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="single-header-top last">
-                    <div class="account-menu">
-                        <ul>
-                            <li><a href="contact.php">Support</a></li>
-                            <li><a href="career.php">Career</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#account"><i class="fa fa-lock"></i>Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--/Header Top-->
 
 <!-- Account Modal -->
 <div class="modal fade" id="account" tabindex="-1" role="dialog" aria-hidden="true">
@@ -182,12 +148,10 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Career</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="career.php">Career</a></li>
                             <li><a class="dropdown-item" href="contact.php">Contact</a></li>
-                            <li><a class="dropdown-item" href="team.php">Team</a></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -228,7 +192,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 centered">
                 <div class="banner-title">
-                    <h2>Case Studies 2</h2>
+                    <h2>Case Studies </h2>
                 </div>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -334,9 +298,13 @@
                 <div class="section-title mb-20">
                     <h2>More Additionally</h2>
                 </div>
-                <p>Proin a sodales sem. Pellentesque odio odio, varius in scelerisque vitae, interdum nec eros. Vestibulum ac mauris id arcu efficitur ultrices. Aenean lobortis risus at nisi lacinia, quis 5.5% maximus felis facilisis. Aliquam vitae pellentesque odio. Proin suscipit, dolor sed dignissim elementum, nisl nibh rutrum ante, id aliquam diam augue a mauris. Pellentesque blandit, mi eget mattis commodo, urna ligula gravida mi, sit amet tincidunt mauris mauris ut neque. Quisque nec placerat velit. Phasellus dignissim risus 6.3% sed leo scelerisque ullamcorper</p>
-                <p class="mb-0">Proin a sodales sem. Pellentesque 4.5% odio odio, varius in scelerisque vitae, interdum nec eros. Vestibulum ac mauris id arcu efficitur ultrices. Aenean lobortis risus at nisi lacinia, quis maximus felis facilisis. Aliquam vitae pellentesque odio. Proin suscipit, dolor sed dignissim elementum, nisl nibh rutrum ante, id aliquam diam augue a mauris. Pellentesque blandit, mi eget mattis commodo, urna ligula gravida mi, sit amet tincidunt mauris mauris ut neque. Quisque nec placerat velit. Phasellus dignissim risus sed leo scelerisque ullamcorper</p>
-            </div>
+                <p> Banking and Financial Markets. At a time of fierce competition, banks are eager to improve customer satisfaction and loyalty. A great place to start is with the processes that drive customer experiences. Think about the ways documents and data flow through your organisation, and how they touch customers.</p>
+                <p>The bank’s Human Resources division was traditionally handled locally, which led to unique HR profiles around
+                    the globe. While this met local needs, it also created an uneven playing field for measuring staff performance,
+                    results and change indicators across the business. Only the largest national businesses were able to provide the
+                    full scope of HR services. Global information was not easily accessible and most HR staff used outdated systems
+                    with heavy paper-based workloads.</p>
+             </div>
         </div>
     </div>
 </section><!-- /Section -->
