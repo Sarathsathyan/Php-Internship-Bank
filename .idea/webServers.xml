@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="47dab428-ed0b-4d60-9c8f-1414c1cd4827" name="phpServer" url="http://localhost/">
+        <fileTransfer port="0" mountedRoot="/opt/lampp/htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
